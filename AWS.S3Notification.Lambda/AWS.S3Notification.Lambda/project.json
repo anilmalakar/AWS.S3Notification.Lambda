@@ -1,0 +1,26 @@
+{
+  "version": "1.0.0-*",
+  "buildOptions": {
+  },
+
+  "dependencies": {
+    "Amazon.Lambda.Core": "1.0.0*",
+    "Amazon.Lambda.Serialization.Json": "1.1.0",
+    "Amazon.Lambda.S3Events": "1.0.1",
+    "Amazon.Lambda.Tools": {
+      "type": "build",
+      "version": "1.7.0"
+    },
+    "Slack.Notification.Library": "1.0.0-*",
+    "AWSSDK.S3": "3.3.9",
+    "Microsoft.NETCore.App": "1.0.0"
+  },
+  "tools": {
+    "Amazon.Lambda.Tools" : "1.7.0"
+  },
+  "frameworks": {
+    "netcoreapp1.0": {
+      "imports": "dnxcore50"
+    }
+  }
+}
